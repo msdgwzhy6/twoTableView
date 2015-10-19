@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F570F5B61BD4FF9E00CD0B0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F570F5B51BD4FF9E00CD0B0D /* main.m */; };
+		F570F5B91BD4FF9E00CD0B0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F570F5B81BD4FF9E00CD0B0D /* AppDelegate.m */; };
+		F570F5BC1BD4FF9E00CD0B0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F570F5BB1BD4FF9E00CD0B0D /* ViewController.m */; };
+		F570F5BF1BD4FF9E00CD0B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F570F5BD1BD4FF9E00CD0B0D /* Main.storyboard */; };
+		F570F5C11BD4FF9E00CD0B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F570F5C01BD4FF9E00CD0B0D /* Assets.xcassets */; };
+		F570F5C41BD4FF9E00CD0B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F570F5C21BD4FF9E00CD0B0D /* LaunchScreen.storyboard */; };
+		F570F5CF1BD4FF9F00CD0B0D /* twoTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F570F5CE1BD4FF9F00CD0B0D /* twoTableViewTests.m */; };
+		F570F5DA1BD4FF9F00CD0B0D /* twoTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F570F5D91BD4FF9F00CD0B0D /* twoTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F570F5CB1BD4FF9F00CD0B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F570F5A91BD4FF9E00CD0B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F570F5B01BD4FF9E00CD0B0D;
+			remoteInfo = twoTableView;
+		};
+		F570F5D61BD4FF9F00CD0B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F570F5A91BD4FF9E00CD0B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F570F5B01BD4FF9E00CD0B0D;
+			remoteInfo = twoTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F570F5B11BD4FF9E00CD0B0D /* twoTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twoTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F570F5B51BD4FF9E00CD0B0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F570F5B71BD4FF9E00CD0B0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F570F5B81BD4FF9E00CD0B0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F570F5BA1BD4FF9E00CD0B0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F570F5BB1BD4FF9E00CD0B0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F570F5BE1BD4FF9E00CD0B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F570F5C01BD4FF9E00CD0B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F570F5C31BD4FF9E00CD0B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F570F5C51BD4FF9E00CD0B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F570F5CA1BD4FF9F00CD0B0D /* twoTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twoTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F570F5CE1BD4FF9F00CD0B0D /* twoTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twoTableViewTests.m; sourceTree = "<group>"; };
+		F570F5D01BD4FF9F00CD0B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F570F5D51BD4FF9F00CD0B0D /* twoTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twoTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F570F5D91BD4FF9F00CD0B0D /* twoTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twoTableViewUITests.m; sourceTree = "<group>"; };
+		F570F5DB1BD4FF9F00CD0B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F570F5AE1BD4FF9E00CD0B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F570F5C71BD4FF9F00CD0B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F570F5D21BD4FF9F00CD0B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F570F5A81BD4FF9E00CD0B0D = {
+			isa = PBXGroup;
+			children = (
+				F570F5B31BD4FF9E00CD0B0D /* twoTableView */,
+				F570F5CD1BD4FF9F00CD0B0D /* twoTableViewTests */,
+				F570F5D81BD4FF9F00CD0B0D /* twoTableViewUITests */,
+				F570F5B21BD4FF9E00CD0B0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F570F5B21BD4FF9E00CD0B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F570F5B11BD4FF9E00CD0B0D /* twoTableView.app */,
+				F570F5CA1BD4FF9F00CD0B0D /* twoTableViewTests.xctest */,
+				F570F5D51BD4FF9F00CD0B0D /* twoTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F570F5B31BD4FF9E00CD0B0D /* twoTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F570F5B71BD4FF9E00CD0B0D /* AppDelegate.h */,
+				F570F5B81BD4FF9E00CD0B0D /* AppDelegate.m */,
+				F570F5BA1BD4FF9E00CD0B0D /* ViewController.h */,
+				F570F5BB1BD4FF9E00CD0B0D /* ViewController.m */,
+				F570F5BD1BD4FF9E00CD0B0D /* Main.storyboard */,
+				F570F5C01BD4FF9E00CD0B0D /* Assets.xcassets */,
+				F570F5C21BD4FF9E00CD0B0D /* LaunchScreen.storyboard */,
+				F570F5C51BD4FF9E00CD0B0D /* Info.plist */,
+				F570F5B41BD4FF9E00CD0B0D /* Supporting Files */,
+			);
+			path = twoTableView;
+			sourceTree = "<group>";
+		};
+		F570F5B41BD4FF9E00CD0B0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F570F5B51BD4FF9E00CD0B0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F570F5CD1BD4FF9F00CD0B0D /* twoTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F570F5CE1BD4FF9F00CD0B0D /* twoTableViewTests.m */,
+				F570F5D01BD4FF9F00CD0B0D /* Info.plist */,
+			);
+			path = twoTableViewTests;
+			sourceTree = "<group>";
+		};
+		F570F5D81BD4FF9F00CD0B0D /* twoTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F570F5D91BD4FF9F00CD0B0D /* twoTableViewUITests.m */,
+				F570F5DB1BD4FF9F00CD0B0D /* Info.plist */,
+			);
+			path = twoTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F570F5B01BD4FF9E00CD0B0D /* twoTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F570F5DE1BD4FF9F00CD0B0D /* Build configuration list for PBXNativeTarget "twoTableView" */;
+			buildPhases = (
+				F570F5AD1BD4FF9E00CD0B0D /* Sources */,
+				F570F5AE1BD4FF9E00CD0B0D /* Frameworks */,
+				F570F5AF1BD4FF9E00CD0B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twoTableView;
+			productName = twoTableView;
+			productReference = F570F5B11BD4FF9E00CD0B0D /* twoTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F570F5C91BD4FF9F00CD0B0D /* twoTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F570F5E11BD4FF9F00CD0B0D /* Build configuration list for PBXNativeTarget "twoTableViewTests" */;
+			buildPhases = (
+				F570F5C61BD4FF9F00CD0B0D /* Sources */,
+				F570F5C71BD4FF9F00CD0B0D /* Frameworks */,
+				F570F5C81BD4FF9F00CD0B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F570F5CC1BD4FF9F00CD0B0D /* PBXTargetDependency */,
+			);
+			name = twoTableViewTests;
+			productName = twoTableViewTests;
+			productReference = F570F5CA1BD4FF9F00CD0B0D /* twoTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F570F5D41BD4FF9F00CD0B0D /* twoTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F570F5E41BD4FF9F00CD0B0D /* Build configuration list for PBXNativeTarget "twoTableViewUITests" */;
+			buildPhases = (
+				F570F5D11BD4FF9F00CD0B0D /* Sources */,
+				F570F5D21BD4FF9F00CD0B0D /* Frameworks */,
+				F570F5D31BD4FF9F00CD0B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F570F5D71BD4FF9F00CD0B0D /* PBXTargetDependency */,
+			);
+			name = twoTableViewUITests;
+			productName = twoTableViewUITests;
+			productReference = F570F5D51BD4FF9F00CD0B0D /* twoTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F570F5A91BD4FF9E00CD0B0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = dong;
+				TargetAttributes = {
+					F570F5B01BD4FF9E00CD0B0D = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = WWMAD767K4;
+					};
+					F570F5C91BD4FF9F00CD0B0D = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = WWMAD767K4;
+						TestTargetID = F570F5B01BD4FF9E00CD0B0D;
+					};
+					F570F5D41BD4FF9F00CD0B0D = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = WWMAD767K4;
+						TestTargetID = F570F5B01BD4FF9E00CD0B0D;
+					};
+				};
+			};
+			buildConfigurationList = F570F5AC1BD4FF9E00CD0B0D /* Build configuration list for PBXProject "twoTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F570F5A81BD4FF9E00CD0B0D;
+			productRefGroup = F570F5B21BD4FF9E00CD0B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F570F5B01BD4FF9E00CD0B0D /* twoTableView */,
+				F570F5C91BD4FF9F00CD0B0D /* twoTableViewTests */,
+				F570F5D41BD4FF9F00CD0B0D /* twoTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F570F5AF1BD4FF9E00CD0B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F570F5C41BD4FF9E00CD0B0D /* LaunchScreen.storyboard in Resources */,
+				F570F5C11BD4FF9E00CD0B0D /* Assets.xcassets in Resources */,
+				F570F5BF1BD4FF9E00CD0B0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F570F5C81BD4FF9F00CD0B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F570F5D31BD4FF9F00CD0B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F570F5AD1BD4FF9E00CD0B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F570F5BC1BD4FF9E00CD0B0D /* ViewController.m in Sources */,
+				F570F5B91BD4FF9E00CD0B0D /* AppDelegate.m in Sources */,
+				F570F5B61BD4FF9E00CD0B0D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F570F5C61BD4FF9F00CD0B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F570F5CF1BD4FF9F00CD0B0D /* twoTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F570F5D11BD4FF9F00CD0B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F570F5DA1BD4FF9F00CD0B0D /* twoTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F570F5CC1BD4FF9F00CD0B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F570F5B01BD4FF9E00CD0B0D /* twoTableView */;
+			targetProxy = F570F5CB1BD4FF9F00CD0B0D /* PBXContainerItemProxy */;
+		};
+		F570F5D71BD4FF9F00CD0B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F570F5B01BD4FF9E00CD0B0D /* twoTableView */;
+			targetProxy = F570F5D61BD4FF9F00CD0B0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F570F5BD1BD4FF9E00CD0B0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F570F5BE1BD4FF9E00CD0B0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F570F5C21BD4FF9E00CD0B0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F570F5C31BD4FF9E00CD0B0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F570F5DC1BD4FF9F00CD0B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F570F5DD1BD4FF9F00CD0B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F570F5DF1BD4FF9F00CD0B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = twoTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.djp.twoTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F570F5E01BD4FF9F00CD0B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = twoTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.djp.twoTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F570F5E21BD4FF9F00CD0B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = twoTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.djp.twoTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twoTableView.app/twoTableView";
+			};
+			name = Debug;
+		};
+		F570F5E31BD4FF9F00CD0B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = twoTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.djp.twoTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twoTableView.app/twoTableView";
+			};
+			name = Release;
+		};
+		F570F5E51BD4FF9F00CD0B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = twoTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.djp.twoTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = twoTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F570F5E61BD4FF9F00CD0B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = twoTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.djp.twoTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = twoTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F570F5AC1BD4FF9E00CD0B0D /* Build configuration list for PBXProject "twoTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F570F5DC1BD4FF9F00CD0B0D /* Debug */,
+				F570F5DD1BD4FF9F00CD0B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F570F5DE1BD4FF9F00CD0B0D /* Build configuration list for PBXNativeTarget "twoTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F570F5DF1BD4FF9F00CD0B0D /* Debug */,
+				F570F5E01BD4FF9F00CD0B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F570F5E11BD4FF9F00CD0B0D /* Build configuration list for PBXNativeTarget "twoTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F570F5E21BD4FF9F00CD0B0D /* Debug */,
+				F570F5E31BD4FF9F00CD0B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F570F5E41BD4FF9F00CD0B0D /* Build configuration list for PBXNativeTarget "twoTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F570F5E51BD4FF9F00CD0B0D /* Debug */,
+				F570F5E61BD4FF9F00CD0B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F570F5A91BD4FF9E00CD0B0D /* Project object */;
+}
