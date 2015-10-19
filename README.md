@@ -1,0 +1,7 @@
+# twoTableView
+两个tableview之间的交互
+数据都是使用本地的plist数据
+没有加上刷新
+简单的实现两个tableview的交互
+可以在两个tableview之间互相选择老师
+只有一个老师可以被选中
